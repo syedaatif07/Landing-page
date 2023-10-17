@@ -1,2 +1,2 @@
 # CodeSoft
-This matter is subjected to create a website in html and css
+A simple Landing page using HTML CSS JS 
