@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)) ,url(/2.jpg);
+    font-family: sans-serif ;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+     font-size: 2em;
+     letter: spacing 2px;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+}
+.register a { 
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: cornflowerblue;
+    border-radius: 10px;
+}
+
+.ht{
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.ht a {
+    text-decoration: none;
+    background:skyblue;
+    color:black;
+    padding:10px 41px ;
+    letter-spacing: 5px;
+    border-radius: 58px;
+    font: bold;
+    margin-top: 0%;
+    margin-bottom: 1px;
+    margin-right: 0%;
+   
+}
+
+.menu a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 3px solid skyblue;
+    transition: 0.4s linear;
+}
+.menu a:hover::before {
+    width: 90%;
+
+}
+.ht span {
+    letter-spacing: 5px;
+}
+.ht h1 {
+    font-size: 3.5em;
+}
