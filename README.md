@@ -1,2 +1,2 @@
-# CodeSoft
-A simple Landing page using HTML CSS JS 
+
+#A simple Landing page using HTML CSS JS 
